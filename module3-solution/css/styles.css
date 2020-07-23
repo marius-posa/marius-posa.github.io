@@ -1,0 +1,84 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #008080;
+  font-family: 'Calibri', sans-serif;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  padding-left: 10px;
+  min-height: 80px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Calibri', serif;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+  margin-left: 30px;
+  text-align: left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle {
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	color: lightgrey;
+	margin-bottom: 30px;
+}
+
+.row {
+  width: 90%;
+  background-color: #008080;
+  margin: 10px auto 10px auto;
+
+}
+
+.opt {
+  padding-bottom: 2px;
+  font-size: 1.25em ;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.small_print {
+  color: black;
+  font-size: 1em;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  text-align: left;
+  background-color: lightgrey;
+}
+
+.options {
+	color: black;
+	text-align: center;
+	background-color: lightgrey;
+	margin-bottom: 20px;
+}
+
+#cats {
+	padding-left: 10%;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 0.75;
+}
+
+hr.visible-xs {
+	border: 2px solid #008080;
+}
